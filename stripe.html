@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="Cache-Control" content="no-store" />
+		<title>Stripe Connector</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+		<style type="text/css">
+			body {
+				margin: 20px 10px;
+			}
+
+			hr {
+				margin: 10px 0px;
+				padding: 0px
+			}
+
+			h2 {
+				margin: 0px;
+				padding: 0px;
+			}
+
+			.container-fluid {
+				padding: 5px 0px;
+			}
+
+			.panel-body {
+				background-color: #EFEFEF;
+				color: #333;
+				font-size: 0.9em;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div style="text-align: center;">
+				<h2><img src="images/StripeLogo.png" height="60px">Web Data Connector</img></h2>
+			</div>
+			<hr/>
+			<div id="initialize-container">
+				<div class="panel panel-default">
+					<div class="panel-body">This key will be used over HTTPS to retrieve data from your Stripe account during this connection. For workbooks and datasource published to Tableau Server, it will be securely stored within Tableau for the purpose of refreshing your created extract.</div>
+				</div>
+				<form role="form" id="stripe-private-key-form" action="">
+					<div class="form-group">
+						<label for="stripe-private-key">Enter your Stripe private key</label>
+						<input type="text" class="form-control" id="stripe-private-key" placeholder="" />
+					</div>
+					<div class="pull-right">
+						<button type="submit" id="submit-private-token" class="btn btn-success">Let's Go!</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div style="text-align: center; margin-top: 50px;">
+			<img src="http://cdnl.tblsft.com/sites/all/themes/tableaumega/logo.png" height="50px" /><br/>
+			Web Data Connector
+		</div>
+	</body>
+	<script src="js/tableauwdc-1.1.0.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script src="js/stripe-wdc.js"></script>
+<html>
