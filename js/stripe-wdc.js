@@ -1,7 +1,7 @@
 /**
- * This provides the basic implementation for consuming data from Stripe with a WDC connector
+ * This provides the basic implementation for consuming charges data from Stripe through the API
  *
- * Version 1.0.2
+ * Version 1.0.0
  */
 
 /**
