@@ -1,5 +1,5 @@
 # Stripe Web Data Connector
-Get your Stripe.com data into Tableau!
+Get your  <img style="vertical-align: text-bottom;" src="https://github.com/benjisg/stripe-web-data-connector/blob/master/images/StripeLogo.png" height="30px" />   data into  <img style="vertical-align: text-bottom;" src="http://cdnl.tblsft.com/sites/all/themes/tableaumega/logo.png" height="30px" />
 
 This connector allows you to pull in all of your Stripe charges data into Tableau so you can begin slicing, dicing, and exploring.
 
