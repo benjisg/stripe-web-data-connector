@@ -110,10 +110,6 @@ var DataTools = (function() {
 		fieldnames.push('source_object');
 		fieldtypes.push('string');
 
-		// Add in 'source_funding' field
-		fieldnames.push('source_funding');
-		fieldtypes.push('string');
-
 		// Add in 'source_last4' field
 		fieldnames.push('source_last4');
 		fieldtypes.push('string');
